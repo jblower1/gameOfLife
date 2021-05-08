@@ -1,0 +1,24 @@
+{
+  "name": "gameOfLife",
+  "version": "1.0.0",
+  "description": "1. a live cell with zero or one live neighbours will die.\r 1. a live cell with two or three live neighbours will remain alive\r 1. a live cell with four or more live neighbours will die.",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node game.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jblower1/gameOfLife.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jblower1/gameOfLife/issues"
+  },
+  "homepage": "https://github.com/jblower1/gameOfLife#readme",
+  "dependencies": {
+    "terminal-kit": "^2.1.1"
+  }
+}
